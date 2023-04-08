@@ -26,4 +26,4 @@ def get_text_messages(message):
 
     bot.send_message(message.from_user.id, "Выберите программу", reply_markup=kb)
 
-bot.infinity_polling()
+bot.infinity_polling()1
